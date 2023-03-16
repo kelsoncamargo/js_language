@@ -8,7 +8,7 @@ const assessment1 = 9.871
 const assessment2 = 6.871
 
 const total = assessment1 * weight1 + assessment2 * weight2
-const media = total / (weight1 + weight2)
-console.log(media.toFixed(2))
-console.log(media.toString())
-console.log(typeof media)
+const average = total / (weight1 + weight2)
+console.log(average.toFixed(2))
+console.log(average.toString())
+console.log(typeof average)
