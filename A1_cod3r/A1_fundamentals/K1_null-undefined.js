@@ -18,4 +18,5 @@ console.log(!!prod.price)
 console.log(prod)
 
 prod.price = null
-console.log(prod)
+console.log(!!prod.price)
+console.log(!!prod)
